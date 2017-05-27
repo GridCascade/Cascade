@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode8.3
+
+env:
+  global:
+    - PROJECT=Cascade.xcodeproj
+    - SCHEME=Cascade
+script:
+  xcodebuild -project "$PROJECT" -scheme "$SCHEME" -destination "platform=iOS Simulator,name=iPhone 6" build-for-testing test | xcpretty;

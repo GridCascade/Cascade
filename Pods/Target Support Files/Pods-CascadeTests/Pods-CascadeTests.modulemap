@@ -1,0 +1,6 @@
+framework module Pods_CascadeTests {
+  umbrella header "Pods-CascadeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

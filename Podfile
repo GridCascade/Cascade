@@ -6,6 +6,7 @@ target 'Cascade' do
   use_frameworks!
 
   pod 'SwiftLint'
+  pod 'PureLayout'
 
   target 'CascadeTests' do
     inherit! :search_paths

@@ -1,0 +1,6 @@
+framework module Pods_Cascade {
+  umbrella header "Pods-Cascade-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28796D521EDAD60C0007DAD3 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28796D511EDAD60C0007DAD3 /* DataSource.swift */; };
+		28796D5C1EDAE4DB0007DAD3 /* Cascade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28796D5B1EDAE4DB0007DAD3 /* Cascade.swift */; };
+		28796D5E1EDAE6BD0007DAD3 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28796D5D1EDAE6BD0007DAD3 /* DemoViewController.swift */; };
+		28796D601EDAEA1E0007DAD3 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28796D5F1EDAEA1E0007DAD3 /* UI.swift */; };
+		28796D621EDAED680007DAD3 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28796D611EDAED680007DAD3 /* Controller.swift */; };
+		28796D641EDAEEAC0007DAD3 /* FakeDataSourceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28796D631EDAEEAC0007DAD3 /* FakeDataSourceFactory.swift */; };
 		28FEBF9E1ED43DA500E7ADAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FEBF9D1ED43DA500E7ADAD /* AppDelegate.swift */; };
-		28FEBFA01ED43DA500E7ADAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FEBF9F1ED43DA500E7ADAD /* ViewController.swift */; };
 		28FEBFA31ED43DA500E7ADAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FEBFA11ED43DA500E7ADAD /* Main.storyboard */; };
 		28FEBFA51ED43DA500E7ADAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FEBFA41ED43DA500E7ADAD /* Assets.xcassets */; };
 		28FEBFA81ED43DA500E7ADAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FEBFA61ED43DA500E7ADAD /* LaunchScreen.storyboard */; };
@@ -29,9 +34,14 @@
 
 /* Begin PBXFileReference section */
 		146B614FAC4340C789809E9B /* Pods_Cascade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cascade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28796D511EDAD60C0007DAD3 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataSource.swift; path = DataSourse/DataSource.swift; sourceTree = "<group>"; };
+		28796D5B1EDAE4DB0007DAD3 /* Cascade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cascade.swift; sourceTree = "<group>"; };
+		28796D5D1EDAE6BD0007DAD3 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		28796D5F1EDAEA1E0007DAD3 /* UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UI.swift; path = UI/UI.swift; sourceTree = "<group>"; };
+		28796D611EDAED680007DAD3 /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Controller.swift; path = Controller/Controller.swift; sourceTree = "<group>"; };
+		28796D631EDAEEAC0007DAD3 /* FakeDataSourceFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FakeDataSourceFactory.swift; path = DataSourse/FakeDataSourceFactory.swift; sourceTree = "<group>"; };
 		28FEBF9A1ED43DA500E7ADAD /* Cascade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cascade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FEBF9D1ED43DA500E7ADAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28FEBF9F1ED43DA500E7ADAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28FEBFA21ED43DA500E7ADAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28FEBFA41ED43DA500E7ADAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28FEBFA71ED43DA500E7ADAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,6 +85,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		28796D4C1EDAD4240007DAD3 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				28796D511EDAD60C0007DAD3 /* DataSource.swift */,
+				28796D631EDAEEAC0007DAD3 /* FakeDataSourceFactory.swift */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		28796D4D1EDAD4340007DAD3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28796D611EDAED680007DAD3 /* Controller.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		28796D4E1EDAD44A0007DAD3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				28796D5F1EDAEA1E0007DAD3 /* UI.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		28FEBF911ED43DA500E7ADAD = {
 			isa = PBXGroup;
 			children = (
@@ -99,11 +134,15 @@
 			isa = PBXGroup;
 			children = (
 				28FEBF9D1ED43DA500E7ADAD /* AppDelegate.swift */,
-				28FEBF9F1ED43DA500E7ADAD /* ViewController.swift */,
-				28FEBFA11ED43DA500E7ADAD /* Main.storyboard */,
+				28796D5D1EDAE6BD0007DAD3 /* DemoViewController.swift */,
+				28796D5B1EDAE4DB0007DAD3 /* Cascade.swift */,
+				28796D4D1EDAD4340007DAD3 /* Controller */,
+				28796D4C1EDAD4240007DAD3 /* DataSource */,
+				28796D4E1EDAD44A0007DAD3 /* UI */,
 				28FEBFA41ED43DA500E7ADAD /* Assets.xcassets */,
-				28FEBFA61ED43DA500E7ADAD /* LaunchScreen.storyboard */,
 				28FEBFA91ED43DA500E7ADAD /* Info.plist */,
+				28FEBFA61ED43DA500E7ADAD /* LaunchScreen.storyboard */,
+				28FEBFA11ED43DA500E7ADAD /* Main.storyboard */,
 			);
 			path = Cascade;
 			sourceTree = "<group>";
@@ -185,6 +224,7 @@
 				TargetAttributes = {
 					28FEBF991ED43DA500E7ADAD = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					28FEBFAD1ED43DA600E7ADAD = {
@@ -345,8 +385,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28FEBFA01ED43DA500E7ADAD /* ViewController.swift in Sources */,
+				28796D5C1EDAE4DB0007DAD3 /* Cascade.swift in Sources */,
+				28796D5E1EDAE6BD0007DAD3 /* DemoViewController.swift in Sources */,
+				28796D641EDAEEAC0007DAD3 /* FakeDataSourceFactory.swift in Sources */,
+				28796D521EDAD60C0007DAD3 /* DataSource.swift in Sources */,
+				28796D621EDAED680007DAD3 /* Controller.swift in Sources */,
 				28FEBF9E1ED43DA500E7ADAD /* AppDelegate.swift in Sources */,
+				28796D601EDAEA1E0007DAD3 /* UI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +453,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -433,6 +479,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +505,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -475,6 +523,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -486,11 +535,13 @@
 			baseConfigurationReference = F3731AFF6CC97FB659493837 /* Pods-Cascade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Cascade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GC.Cascade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -500,6 +551,7 @@
 			baseConfigurationReference = AC068CD77333D9DBFAD817D0 /* Pods-Cascade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Cascade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -6,7 +6,7 @@
 //  Copyright © 2017 GridCascade. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 /**
  Root class to use from the client code

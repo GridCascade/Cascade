@@ -6,7 +6,7 @@
 //  Copyright © 2017 GridCascade. All rights reserved.
 //
 
-import Foundation
+import PureLayout
 
 protocol UIProtocol: class {
     func view() -> UIView
